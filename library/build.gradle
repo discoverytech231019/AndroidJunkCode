@@ -19,13 +19,13 @@ if (publishMaven) {
     apply plugin: 'signing'
     apply plugin: 'com.gradle.plugin-publish'
 
-    group = 'io.github.qq549631030'
+    group = 'io.github.discoverytech231019'
     version = VERSION_NAME
 
     gradlePlugin {
         plugins {
             androidJunkCode {
-                id = 'io.github.qq549631030.android-junk-code'
+                id = 'io.github.discoverytech231019.android-junk-code'
                 implementationClass = 'cn.hx.plugin.junkcode.plugin.AndroidJunkCodePlugin'
                 displayName = 'AndroidJunkCode plugin'
                 description = POM_DESCRIPTION
